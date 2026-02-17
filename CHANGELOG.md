@@ -13,12 +13,14 @@ This change log adheres to standards from [Keep a CHANGELOG](https://keepachange
 * [`no-unknown-property`]: allow `onLoad` on `body` ([#3923][] @DerekStapleton)
 * [`no-unknown-property`]: allow `closedby` on `dialog` ([#3980][] @ljharb)
 * [`jsx-key`]: detect missing keys in logical expressions ([#3932][] @yalperg)
+* [`no-unknown-property`]: add `onScrollEnd` and `onScrollEndCapture` events as known properties ([#3958][] @xfeeefeee)
 
 ### Changed
 * [Docs] [`no-array-index-key`]: add template literal examples ([#3978][] @akahoshi1421)
 * [Refactor] [`jsx-key`]: use isJSX util function instead of shouldCheckNode ([#3932][] @yalperg)
 
 [#3978]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3978
+[#3958]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3958
 [#3980]: https://github.com/jsx-eslint/eslint-plugin-react/issues/3980
 [#3932]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3932
 [#3930]: https://github.com/jsx-eslint/eslint-plugin-react/pull/3930
